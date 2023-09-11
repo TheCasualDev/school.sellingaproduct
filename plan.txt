@@ -1,0 +1,48 @@
+
+ -- nav bar
+ --- logo
+ --- important links (things like the purchase F&Q and maybe some fake link)
+ --- sign-up (directs to purchase tab) and login (does nothing)
+ 
+ -- main section
+ --- hero
+ ---- product title
+ ---- quick slogan
+ 
+ --- about product section
+ ---- about card
+ ----- title
+ ----- paragraph
+ ----- image to help visualize info or just look cool
+ ---- about card
+ ----- title
+ ----- paragraph
+ ----- image to help visualize info or just look cool
+ ---- about card
+ ----- title
+ ----- paragraph
+ ----- image to help visualize info or just look cool
+ ---- about card
+ ----- title
+ ----- paragraph
+ ----- image to help visualize info or just look cool
+
+ --- plan selector
+ ---- product card
+ ----- name
+ ----- price
+ ----- list of perks
+ ---- product card
+ ----- name
+ ----- price
+ ----- list of perks
+ ---- product card
+ ----- name
+ ----- price
+ ----- list of perks
+
+ ---- faq
+
+ -- footer
+ --- info
+ --- credits
