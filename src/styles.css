@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+
+    /* sunset theme from color hunt */
+
+    --sunset-yellow: #EBE76C;
+    --sunset-orange: #F0B86E;
+    --sunset-peach: #ED7B7B;
+    --sunset-purple: #836096;
+    
+    /* beach theme from color hunt */
+
+    --beach-purple: #793FDF;
+    --beach-blue: #7091F5;
+    --beach-mint: #97FFF4;
+    --beach-yellow: #FFFD8C;
+
+    /* midnight theme from color hunt */
+
+    --midnight-navy-dark: #313866;
+    --midnight-navy: #504099;
+    --midnight-purple: #974EC3;
+    --midnight-pink: #FE7BE5;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--midnight-navy);
+}
+
+/* nav bar CSS values */
+
+nav {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 2vh;
+
+    background-color: var(--beach-purple);
+    color: #fff;
+
+}
+
+.brand-title {
+
+    color: #fff;
+    background-color: 0;
+    font-weight: 500;
+    font-size: 25px;
+
+    font-family: 'Silkscreen', cursive;
+
+}
+
+.navbar-links {
+
+    margin-left: 5%;
+
+}
+
+.login-signup {
+
+    margin-left: auto;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.login {
+
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.sign-up {
+
+    padding: 9px 25px;
+    background-color: var(--beach-yellow);
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-family: 'Archivo Black', sans-serif;
+    box-shadow: 5px 5px;
+    font-size: 25px;
+
+}
+

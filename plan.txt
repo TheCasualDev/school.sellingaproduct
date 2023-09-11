@@ -6,7 +6,7 @@
  
  -- main section
  --- hero
- ---- product title
+ ---- retrogames
  ---- quick slogan
  
  --- about product section
