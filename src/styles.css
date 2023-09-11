@@ -4,6 +4,10 @@
 
 :root {
 
+    /* arcade theme from logo */
+
+    --arcade-puprle: #702190;
+
     /* sunset theme from color hunt */
 
     --sunset-yellow: #EBE76C;
@@ -37,6 +41,31 @@ body {
     background-color: var(--midnight-navy);
 }
 
+/* clear link styles */
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: underline white 0.5px;
+}
+a:visited  {
+    color: #fff;
+    text-decoration: none;
+}
+a:link  {
+    color: #fff;
+    text-decoration: none;
+}
+a:active  {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 /* nav bar CSS values */
 
 nav {
@@ -53,18 +82,17 @@ nav {
 
 .brand-title {
 
-    color: #fff;
-    background-color: 0;
-    font-weight: 500;
-    font-size: 25px;
-
-    font-family: 'Silkscreen', cursive;
+    max-width: 500px;
+    height: auto;
 
 }
 
 .navbar-links {
 
-    margin-left: 5%;
+    margin-left: 25px;
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
 
 }
 
@@ -79,6 +107,7 @@ nav {
 
     color: #fff;
     font-size: 25px;
+    margin-right: 10px;
 
 }
 
@@ -86,12 +115,20 @@ nav {
 
     padding: 9px 25px;
     background-color: var(--beach-yellow);
-    border: none;
+    border: black solid 1px;
     border-top-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     font-family: 'Archivo Black', sans-serif;
     box-shadow: 5px 5px;
     font-size: 25px;
+
+    margin-right: 10px;
+
+}
+
+/* hero card CSS */
+
+#hero {
 
 }
 
